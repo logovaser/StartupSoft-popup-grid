@@ -1,0 +1,30 @@
+.block.bridge-bottom-right {
+  justify-content: flex-end;
+  align-items: flex-end;
+}
+
+.bridge-bottom-right .block-content {
+  animation: 600ms ease blockAppearVertical;
+}
+
+.bridge-bottom-right .bridge {
+  width: var(--bridgeThickness);
+  height: var(--blockSpacing);
+  right: 15%;
+  bottom: calc(-1 * var(--blockSpacing));
+  animation: 400ms bridgeAppear;
+}
+
+.bridge-bottom-right .bridge::before {
+  left: calc(var(--borderRadius) - var(--bridgeThickness));
+  height: var(--blockSpacing);
+  width: var(--bridgeThickness);
+  animation: 400ms bridgeBeforeAppearVertical;
+}
+
+.bridge-bottom-right .bridge:after {
+  right: calc(var(--borderRadius) - var(--bridgeThickness));
+  height: var(--blockSpacing);
+  width: var(--bridgeThickness);
+  animation: 400ms bridgeAfterAppearVertical;
+}

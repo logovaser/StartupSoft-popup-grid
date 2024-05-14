@@ -1,0 +1,6 @@
+body {
+  --blockSpacing: 32px;
+  --bridgeThickness: calc(var(--blockSpacing) * 2);
+  --borderRadius: 16px;
+  --backgroundColor: #ddd;
+}
