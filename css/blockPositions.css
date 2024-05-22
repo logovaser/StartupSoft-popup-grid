@@ -1,6 +1,6 @@
 .container {
   display: grid;
-  grid-template-columns: 2fr 3fr 2fr;
+  grid-template-columns: 4fr 3fr 3fr 4fr;
   grid-template-rows: 3fr 2fr 4fr 3fr;
   column-gap: var(--blockSpacing);
   row-gap: var(--blockSpacing);
@@ -10,7 +10,7 @@
   grid-row-start: 2;
   grid-row-end: 4;
   grid-column-start: 2;
-  grid-column-end: 3;
+  grid-column-end: 4;
 
   height: 350px;
 }
@@ -61,29 +61,29 @@
   grid-row-end: 5;
   grid-column-start: 2;
   grid-column-end: 3;
-  width: 300px;
 }
 
 .block-6 {
   grid-row-start: 4;
   grid-row-end: 5;
   grid-column-start: 3;
-  grid-column-end: 4;
+  grid-column-end: 5;
+  width: 400px;
 }
 
 .block-7 {
   grid-row-start: 3;
   grid-row-end: 4;
-  grid-column-start: 3;
-  grid-column-end: 4;
+  grid-column-start: 4;
+  grid-column-end: 5;
   height: 130px;
 }
 
 .block-8 {
   grid-row-start: 2;
   grid-row-end: 3;
-  grid-column-start: 3;
-  grid-column-end: 4;
+  grid-column-start: 4;
+  grid-column-end: 5;
 }
 .block-8 *, .block-8 > .bridge:before, .block-8 > .bridge::after {
   animation-delay: 400ms !important;
@@ -92,8 +92,8 @@
 .block-9 {
   grid-row-start: 1;
   grid-row-end: 2;
-  grid-column-start: 3;
-  grid-column-end: 4;
+  grid-column-start: 4;
+  grid-column-end: 5;
 }
 .block-9 *, .block-9 > .bridge:before, .block-9 > .bridge::after {
   animation-delay: 800ms !important;
